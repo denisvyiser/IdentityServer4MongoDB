@@ -1,0 +1,34 @@
+{
+  "author": "Denis",
+  "classifications": [ "Common", "Web" ],
+  "name": "Template .NET Core IdentityServer MongoDB",
+  "identity": "Template.Core",
+  "shortName": "ids4mongo",
+  "tags": {
+    "language": "C#",
+	"type": "project"
+  },
+  "sourceName": "IdentityServer",
+  "preferNameDirectory": "true",
+  "symbols": {
+    "ProjectName": {
+      "type": "parameter",
+      "defaultValue": "Project",
+      "replaces": "Project",
+      "FileRename": "Project",
+      "isRequired": false
+    }
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [ ".git/**" ]
+        }
+      ]
+    }
+  ]
+
+}
+
+//dotnet new iris -n Guarita --P ProjectName --allow-scripts yes --force
