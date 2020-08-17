@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  identityserver.api:
+    image: hcrpimages.azurecr.io/identityserver-api:latest
+    build:
+      context: .
+      dockerfile: Project.identityserver.Api/Dockerfile

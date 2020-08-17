@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Project.identityserver.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Project.identityserver.Api.Controllers.ReadUserController.GetBy(System.Int32,System.Int32,System.String,System.Boolean,System.String,System.String,System.String)">
+            <summary>
+            Efetua a consulta de Pacientes
+            </summary>
+            <param name="local">Regitro do Paciente</param>
+            <param name="sigla">Nome do Paciente</param>
+            <param name="codigo">Sobre Nome do Paciente</param>
+            <param name="page">Quantidade de Páginas</param>
+            <param name="size">Quantidade de Registros por página</param>
+            <param name="orderProperty">Nome da propriedade pela qual será ordenado o dados</param>
+            <param name="orderCrescent">Ordenação Crescente ou Decrescente</param>
+            <returns>Lista ou um único Registro</returns>
+            <response code="200">Dados consultados</response>
+            <response code="400">Nenhum registro retornado</response>
+        </member>
+        <member name="M:Project.template.Api.Controllers.ReadDemoController.GetBy(System.Int32,System.Int32,System.String,System.Boolean,System.String,System.String)">
+            <summary>
+            Efetua a consulta de Pacientes
+            </summary>
+            <param name="page">Quantidade de Páginas</param>
+            <param name="size">Quantidade de Registros por Páginas</param>
+            <param name="orderProperty">Propriedade pela qual será ordenado</param>
+            <param name="orderCrescent">Ordenação Crescente ou Decrescente</param>
+            <param name="sigla">Quantidade de Páginas</param>
+            <param name="codigo">Quantidade de Páginas</param>
+            <returns>Lista ou um único Registro</returns>
+            <response code="200">Dados consultados</response>
+            <response code="400">Nenhum registro retornado</response>
+        </member>
+    </members>
+</doc>
