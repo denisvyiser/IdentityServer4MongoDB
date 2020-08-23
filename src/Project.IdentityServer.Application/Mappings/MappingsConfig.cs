@@ -12,6 +12,7 @@ namespace Project.identityserver.Application.Mappings
                 config.AddProfile(new ViewModelToCommandMappingProfile());
                 config.AddProfile(new CommandToDomainMappingProfile());
                 config.AddProfile(new DomainToModelServiceMappingProfile());
+                config.AddProfile(new ModelServiceToDomainMappingProfile());
             });
         }
     }
